@@ -4,3 +4,8 @@ And when I want to save it online.
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 So that I can First check my commit online. and decide weather I want to pull it or not. Rather than Git automatically staying upto date with my repository
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Fork is used when clonning from one user to ourself in github.
+clones is used to clone commit and files from one computer or giver URL
+braches are used when committing different versions which is optional. Or to create a bug fixing commit while Main commit will be running for Users.

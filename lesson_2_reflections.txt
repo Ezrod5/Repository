@@ -1,0 +1,31 @@
+What happens when you initialize a repository? Why do you need to do it?
+a file named .git will be created in working directory
+We need it in order to save commits.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area is the area where files are stored for commitment.
+The files that are in staging area might be commited.
+It is different from working directory and repository
+
+How can you use the staging area to make sure you have one commit per logical change?
+Staging area is just place where files are ready to commit
+They can be tranferred to repository after they are committed
+committing after adding something new or debugging error us way to use staging area logically
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches are really helpful in making different versions of program Like make Chinese version of game, Different difficulty level for game.
+It keeps track of Original version and Other versions.
+New and old versions are differed by id which is not user friendly. Branch allows you to give user friendly names to different type of versions
+
+How do the diagrams help you visualize the branch structure?
+We can see how's our branch actually in the .git file If we make a diagram
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+merging two brances together creates a new branch, whose parent branches are two branches themselves.
+you can see this by using git command git log --graph.
+Because they are saved in computer as like diagram we make.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Git can find where the changes are between two commits.
+Git adds required lines into the new version automatically and also gives proper loaction where conflict occoured.
+Git cannot resolve conflict by itself. Required to fix conflict manually.
